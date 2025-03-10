@@ -32,9 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${karla.variable} min-h-screen w-screen antialiased font-sans`}
-      >
+      <body className={`${karla.variable} min-h-screen antialiased font-sans`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
