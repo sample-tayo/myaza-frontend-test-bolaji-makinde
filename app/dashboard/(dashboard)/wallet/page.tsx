@@ -10,7 +10,7 @@ const WALLET_HEADING = {
 
 export default function Page() {
   return (
-    <>
+    <div className="mx-auto w-full max-w-[1440px] overflow-x-hidden">
       <PageHeader
         title={WALLET_HEADING.title}
         subtitle={WALLET_HEADING.subtitle}
@@ -19,6 +19,6 @@ export default function Page() {
         <WalletCards consolidatedBalance={1000} wallets={USER_WALLETS} />
         <RecentTransactionsTable showDescription transactions={transactions} />
       </div>
-    </>
+    </div>
   );
 }

@@ -15,7 +15,7 @@ const DASHBOARD_WELCOME = {
 
 export default function Page() {
   return (
-    <div className="mx-auto w-full">
+    <div className="mx-auto w-full max-w-[1440px] overflow-x-hidden">
       <PageHeader
         title={DASHBOARD_WELCOME.title}
         subtitle={DASHBOARD_WELCOME.subtitle}

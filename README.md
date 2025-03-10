@@ -15,6 +15,7 @@ A modern financial dashboard application built with Next.js and TypeScript, feat
 9. [Testing](#testing)
 10. [Additional Features](#additional-features)
 11. [Scripts](#scripts)
+12. [Live Demo](#live-demo)
 
 ## Overview
 
@@ -58,7 +59,7 @@ This application is a financial dashboard that provides users with a modern inte
 ### Prerequisites
 
 - Node.js (v18 or higher)
-- pnpm (v8 or higher)
+- npm (v8 or higher)
 - Git
 
 ### Installation
@@ -73,7 +74,7 @@ This application is a financial dashboard that provides users with a modern inte
 2. Install dependencies:
 
    ```bash
-   pnpm install
+   npm install
    ```
 
 3. Set up environment variables:
@@ -88,7 +89,7 @@ This application is a financial dashboard that provides users with a modern inte
 4. Run the development server:
 
    ```bash
-   pnpm dev
+   npm run dev
    ```
 
 5. Open your browser and navigate to:
@@ -165,7 +166,7 @@ Note: Some navigation links in the sidebar point to placeholder routes (marked w
 Run unit tests using the following command:
 
 ```bash
-pnpm test
+npm test
 ```
 
 ## Additional Features
@@ -176,8 +177,13 @@ pnpm test
 
 ## Scripts
 
-- `pnpm dev`: Run development server with Turbopack
-- `pnpm build`: Build the application for production
-- `pnpm start`: Start the production server
-- `pnpm lint`: Run ESLint for code linting
-- `pnpm test`: Run unit tests
+- `npm run dev`: Run development server with Turbopack
+- `npm run build`: Build the application for production
+- `npm start`: Start the production server
+- `npm run lint`: Run ESLint for code linting
+- `npm test`: Run unit tests
+
+## Live Demo
+
+You can view the live deployment of this application at:
+[http://myaza-test.demoversion.xyz/](http://myaza-test.demoversion.xyz/)

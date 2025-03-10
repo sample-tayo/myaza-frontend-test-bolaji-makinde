@@ -14,7 +14,9 @@ export default function DashboardLayout({
   return (
     <SidebarProvider>
       <AppSidebar />
-      <SidebarInset className="p-10 relative">{children}</SidebarInset>
+      <SidebarInset className="p-10 relative overflow-x-hidden">
+        <div className="max-w-[1440px] mx-auto w-full">{children}</div>
+      </SidebarInset>
     </SidebarProvider>
   );
 }
