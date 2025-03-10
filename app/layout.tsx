@@ -9,18 +9,18 @@ const karla = Karla({
 });
 
 export const metadata: Metadata = {
-  title: "Uifry - Simplify Your Finances",
+  title: "Uifry - Empower Your Financial Journey",
   description:
-    "Uifry is a payment platform that simplifies managing your finances. Send and receive money, exchange currencies, manage 10+ currencies, and use a virtual USD card for online shopping.",
+    "Step into the future of finance with Uifry, where your money's potential is unlocked. Effortlessly send, receive, and exchange currencies while managing a world of financial possibilities.",
   keywords: [
-    "payment platform",
+    "financial journey",
     "send money",
-    "receive money",
+    "receive funds",
     "currency exchange",
-    "multi-currency wallet",
-    "virtual USD card",
-    "online shopping",
-    "finances",
+    "multi-currency management",
+    "digital wallet",
+    "virtual card",
+    "financial freedom",
     "Uifry",
   ],
 };
